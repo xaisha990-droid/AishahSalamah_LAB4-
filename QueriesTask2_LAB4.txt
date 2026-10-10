@@ -1,0 +1,24 @@
+15 ?- consult(['c:/Users/Aishah Salamah/OneDrive/Documents/Task2_LAB4.pl']).
+true.
+
+16 ?- female(X).
+X = sara .
+
+17 ?- male(_)
+|    .
+true .
+
+18 ?- parent(X, faisal), parent(Y, X).
+X = muhammad,
+Y = ali.
+
+19 ?- parent(ahmad, X), female(X).
+X = sara .
+
+20 ?- parent(X, ahmad), parent(X, muhammad).
+X = ali.
+
+21 ?- parent(X, khan), parent(X, nora), male(khan).
+X = ahmad.
+
+22 ?- 
